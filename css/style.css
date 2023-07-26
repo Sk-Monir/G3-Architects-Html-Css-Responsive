@@ -206,10 +206,47 @@ header{
     margin: 100px 0;
   }
   .Sponspors_items{
-    margin: 50px 0;
+    margin: 100px 0 50px 0;
   }
+/* ----------------------------
+    Qualified Engineers section
+ -------------------------------*/
+ #Engineers_sec{
+    margin: 100px 0 50px 0;
+ }
+ #Engineers_sec .row{
+    gap: 20px;
+ }
+ .staff{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding-bottom: 20px;
+    border-radius: 8px;
+    transition: all linear .3s;
+    margin-top: 50px;
+ }
+ .staff:hover{
+    background-color: #FF900E;
+ }
+ .staff:hover .sec_ttl,
+ .staff:hover .sec_text{
+    color: #fff;
+ }
+ .staff .text{
+    margin-top: 20px;
+    
+ }
+ .staff img{
+    margin-bottom: 20px;
+ }
+ .staff .sec_ttl{
+    font-size: 25px;
+    font-weight: 600;
+ }
+ .staff img{
+    max-width: 100%;
+ }
  /* ----------------------------
-    main section start
+    main section end
  -------------------------------*/
    /*-----------------------------
  footer section start
@@ -222,6 +259,7 @@ header{
     font-size: 20px;
     margin-bottom: 0;
   }
+
     /*-----------------------------
  footer section ens
   ------------------------------*/
