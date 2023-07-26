@@ -1,7 +1,13 @@
-/* google font css start */
+/*----------------------------- 
+google font css start 
+-------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
-/* google font css end */
-/* common css start */
+/*-----------------------------
+ google font css end
+ ------------------------------*/
+/*-----------------------------
+common css start
+-------------------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -57,8 +63,12 @@ a{
     background-color: #FF900E;
     border: 1px solid #FF900E;
 }
-/* common css End */
-/* Header section start */
+/*------------------------------
+ common css End
+ ------------------------------ */
+/*------------------------------
+ Header section start 
+ ------------------------------*/
 header{
     padding: 50px 0;
     background: rgba(255, 144, 14, 0.10);
@@ -77,7 +87,9 @@ header{
     color: #fff;
     background-color: #FF900E;
 }
-/* Banner sec start */
+/*------------------------------
+ Banner sec start
+ ------------------------------ */
 #banner{
     padding: 50px 150px 0;
 }
@@ -89,4 +101,35 @@ header{
     max-width: 100%;
     margin-top: 20px;
 }
-/* Header section end */
+/*------------------------------
+ Header section end
+ ------------------------------- */
+
+ /* ----------------------------
+    main section start
+ -------------------------------*/
+ /*------------------------------
+ our features sec start
+ ------------------------------ */
+ #our_features{
+     margin: 100px 0;
+ }
+ #our_features .row{
+    gap:20px
+ }
+ .gray{
+    color:#727272;
+    font-weight: 500;
+ }
+ .yellow{
+    color:#FF900E;
+ }
+ .our_features_img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+ }
+ 
+ /* ----------------------------
+    main section start
+ -------------------------------*/
