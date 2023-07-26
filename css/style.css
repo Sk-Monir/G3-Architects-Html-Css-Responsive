@@ -90,12 +90,15 @@ header{
 /*------------------------------
  Banner sec start
  ------------------------------ */
-#banner{
-    padding: 50px 150px 0;
-}
+
 #banner .sec_ttl{
     font-size: 64px;
     font-weight: 700;
+    padding: 50px 150px 0;
+}
+#banner .sec_text{
+    padding: 0px 150px 0;
+
 }
 #banner img{
     max-width: 100%;
@@ -348,6 +351,9 @@ header{
         row-gap: 20px;
         text-align: center;   
     }
+    #banner {
+        padding: 20px 0;
+     }
     #banner .sec_ttl{
         font-size: 40px;
      }
