@@ -129,7 +129,40 @@ header{
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
  }
- 
+  /*------------------------------
+ Your features sec start
+ ------------------------------ */
+ #your_features .row{
+    gap: 20px;
+ }
+ .your_features_item{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+ }
+ .your_features_item .sec_ttl{
+    font-size: 20px;
+    font-weight: 600;
+ }
+ .your_features_img{
+    position: relative;
+}
+.your_features_img .btn{
+    position: absolute;
+    bottom: -50px;
+    left: -25px;
+    z-index: 1;
+ }
+ .your_features_img .btn h2,
+ .your_features_img .btn p{
+    color: #131313;
+    transition: all linear .3s;
+ }
+ .your_features_img .btn:hover h2,
+ .your_features_img .btn:hover p{
+    color: #fff;
+ }
  /* ----------------------------
     main section start
  -------------------------------*/
