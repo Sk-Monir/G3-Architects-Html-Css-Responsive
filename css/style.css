@@ -262,7 +262,6 @@ header{
     font-size: 20px;
     margin-bottom: 0;
   }
-
 /*-----------------------------
  footer section end
   ------------------------------*/
@@ -308,7 +307,11 @@ header{
      }
      #banner .sec_ttl{
         font-size: 30px;
-     }
+        padding: 0  ;
+    }
+    #banner .sec_text{
+        padding: 0;
+    }
      .our_features_img{
         grid-template-columns: repeat(1, 1fr);
      }
@@ -354,9 +357,13 @@ header{
     #banner {
         padding: 20px 0;
      }
-    #banner .sec_ttl{
+     #banner .sec_ttl{
         font-size: 40px;
-     }
+        padding: 0  ;
+    }
+    #banner .sec_text{
+        padding: 0;
+    }
     .our_features_img, .Engineers_info, .facts_items{
         grid-template-columns: repeat(2, 1fr); 
      }
