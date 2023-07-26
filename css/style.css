@@ -199,6 +199,29 @@ header{
     padding: 20px;
     border-radius: 100%;
   }
+  /*-----------------------------
+ Our Sponspors section start
+  ------------------------------*/
+  #Sponspors_sec{
+    margin: 100px 0;
+  }
+  .Sponspors_items{
+    margin: 50px 0;
+  }
  /* ----------------------------
     main section start
  -------------------------------*/
+   /*-----------------------------
+ footer section start
+  ------------------------------*/
+  footer{
+    padding: 40px 0;
+    background: rgba(255, 144, 14, 0.10);
+  }
+  footer .sec_text{
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+    /*-----------------------------
+ footer section ens
+  ------------------------------*/
