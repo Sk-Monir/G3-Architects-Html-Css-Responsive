@@ -132,6 +132,9 @@ header{
   /*------------------------------
  Your features sec start
  ------------------------------ */
+ #your_features{
+    margin: 100px 0;
+ }
  #your_features .row{
     gap: 20px;
  }
@@ -163,6 +166,39 @@ header{
  .your_features_img .btn:hover p{
     color: #fff;
  }
+ /*-----------------------------
+  Some Facts section start
+  ------------------------------*/
+  #facts_sec{
+    margin: 100px 0;
+  }
+  .facts_items{
+    margin: 100px 0;
+    padding: 0 20px;
+  }
+  .facts_item{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding:20px 40px;
+    transition: all linear .3s;
+  }
+  .facts_item:hover{
+    color:#fff;
+    background-color: #FF900E;
+    border: 1px solid #FF900E;
+  }
+  .facts_item .sec_ttl{
+    margin-bottom: 10px;
+  }
+  .facts_item:hover .sec_ttl,
+  .facts_item:hover .sec_text{
+    color:#fff;
+  }
+  .facts_item img{
+    background-color: #fff ;
+    padding: 20px;
+    border-radius: 100%;
+  }
  /* ----------------------------
     main section start
  -------------------------------*/
