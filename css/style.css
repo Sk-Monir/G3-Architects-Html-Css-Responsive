@@ -211,6 +211,9 @@ header{
   .Sponspors_items{
     margin: 100px 0 50px 0;
   }
+  .Sponspors_items img{
+  filter: grayscale(100%); 
+  }
 /* ----------------------------
     Qualified Engineers section
  -------------------------------*/
