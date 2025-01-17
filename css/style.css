@@ -2,379 +2,456 @@
 google font css start 
 -------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
 /*-----------------------------
  google font css end
  ------------------------------*/
 /*-----------------------------
 common css start
 -------------------------------*/
-*{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
+* {
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
 }
-body{
-    font-family: 'Work Sans', sans-serif;
+
+body {
+   font-family: 'Work Sans', sans-serif;
 }
-.container{
-    width: 1140px;
-    margin: 0 auto;
+
+.container {
+   width: 1140px;
+   margin: 0 auto;
 }
-li{
-    list-style: none;
+
+li {
+   list-style: none;
 }
-a{
-    text-decoration: none;
+
+a {
+   text-decoration: none;
 }
-.row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
-.center{
-    text-align: center;
+
+.center {
+   text-align: center;
 }
-.sec_ttl{
-    color:#131313;
-    font-size: 45px;
-    font-weight: 700;
-    margin-bottom: 20px;
+
+.sec_ttl {
+   color: #131313;
+   font-size: 45px;
+   font-weight: 700;
+   margin-bottom: 20px;
 }
-.sec_text{
-    color:#727272;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 20px;
+
+.sec_text {
+   color: #727272;
+   font-size: 16px;
+   font-weight: 400;
+   margin-bottom: 20px;
 }
-.btn{
-    color:#424242;
-    padding: 15px 30px;
-    background: rgba(255, 144, 14, -0.10);
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 8px;
-    border: 1px solid #FF900E;
-    transition: all linear .3s;
-    cursor: pointer;
+
+.btn {
+   color: #424242;
+   padding: 15px 30px;
+   background: rgba(255, 144, 14, -0.10);
+   font-size: 20px;
+   font-weight: 600;
+   border-radius: 8px;
+   border: 1px solid #FF900E;
+   transition: all linear .3s;
+   cursor: pointer;
 }
-.btn:hover{
-    color:#fff;
-    background-color: #FF900E;
-    border: 1px solid #FF900E;
+
+.btn:hover {
+   color: #fff;
+   background-color: #FF900E;
+   border: 1px solid #FF900E;
 }
+
 /*------------------------------
  common css End
  ------------------------------ */
 /*------------------------------
  Header section start 
  ------------------------------*/
-header{
-    padding: 50px 0;
-    background: rgba(255, 144, 14, 0.10);
+header {
+   padding: 50px 0;
+   background: rgba(255, 144, 14, 0.10);
 }
+
 /* Nav sec start */
-.menu_item{
-    color:#424242;
-    margin: 5px 5px;
-    padding: 12px 20px;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 6px;
-    transition: all linear .3s;
+.menu_item {
+   color: #424242;
+   margin: 5px 5px;
+   padding: 12px 20px;
+   font-size: 18px;
+   font-weight: 500;
+   border-radius: 6px;
+   transition: all linear .3s;
 }
-.menu_item:hover{
-    color: #fff;
-    background-color: #FF900E;
+
+.menu_item:hover {
+   color: #fff;
+   background-color: #FF900E;
 }
+
 /*------------------------------
  Banner sec start
  ------------------------------ */
 
-#banner .sec_ttl{
-    font-size: 64px;
-    font-weight: 700;
-    padding: 50px 150px 0;
+#banner .sec_ttl {
+   font-size: 64px;
+   font-weight: 700;
+   padding: 50px 150px 0;
 }
-#banner .sec_text{
-    padding: 0px 150px 0;
+
+#banner .sec_text {
+   padding: 0px 150px 0;
 
 }
-#banner img{
-    max-width: 100%;
-    margin-top: 20px;
+
+#banner img {
+   max-width: 100%;
+   margin-top: 20px;
 }
+
 /*------------------------------
  Header section end
  ------------------------------- */
 
- /* ----------------------------
+/* ----------------------------
     main section start
  -------------------------------*/
- /*------------------------------
+/*------------------------------
  our features sec start
  ------------------------------ */
- #our_features{
-     margin: 100px 0;
- }
- #our_features .row{
-    gap:20px
- }
- .gray{
-    color:#727272;
-    font-weight: 500;
- }
- .yellow{
-    color:#FF900E;
- }
- .our_features_img{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
- }
-  /*------------------------------
+#our_features {
+   margin: 100px 0;
+}
+
+#our_features .row {
+   gap: 20px
+}
+
+.gray {
+   color: #727272;
+   font-weight: 500;
+}
+
+.yellow {
+   color: #FF900E;
+}
+
+.our_features_img {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+}
+
+/*------------------------------
  Your features sec start
  ------------------------------ */
- #your_features{
-    margin: 100px 0;
- }
- #your_features .row{
-    gap: 20px;
- }
- .your_features_item{
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
- }
- .your_features_item .sec_ttl{
-    font-size: 20px;
-    font-weight: 600;
- }
- .your_features_img{
-    position: relative;
+#your_features {
+   margin: 100px 0;
 }
-.your_features_img .btn{
-    position: absolute;
-    bottom: -50px;
-    left: -25px;
-    z-index: 1;
- }
- .your_features_img .btn h2,
- .your_features_img .btn p{
-    color: #131313;
-    transition: all linear .3s;
- }
- .your_features_img .btn:hover h2,
- .your_features_img .btn:hover p{
-    color: #fff;
- }
- /*-----------------------------
+
+#your_features .row {
+   gap: 20px;
+}
+
+.your_features_item {
+   margin-bottom: 20px;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.your_features_item .sec_ttl {
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.your_features_img {
+   position: relative;
+}
+
+.your_features_img .btn {
+   position: absolute;
+   bottom: -50px;
+   left: -25px;
+   z-index: 1;
+}
+
+.your_features_img .btn h2,
+.your_features_img .btn p {
+   color: #131313;
+   transition: all linear .3s;
+}
+
+.your_features_img .btn:hover h2,
+.your_features_img .btn:hover p {
+   color: #fff;
+}
+
+/*-----------------------------
   Some Facts section start
   ------------------------------*/
-  #facts_sec{
-    margin: 100px 0;
-  }
-  .facts_items{
-    margin: 100px 0;
-    padding: 0 20px;
-  }
-  .facts_item{
-    border: 1px solid #FF900E;
-    border-radius: 8px;
-    padding:20px 40px;
-    transition: all linear .3s;
-  }
-  .facts_item:hover{
-    color:#fff;
-    background-color: #FF900E;
-    border: 1px solid #FF900E;
-  }
-  .facts_item .sec_ttl{
-    margin-bottom: 10px;
-  }
-  .facts_item:hover .sec_ttl,
-  .facts_item:hover .sec_text{
-    color:#fff;
-  }
-  .facts_item img{
-    background-color: #fff ;
-    padding: 20px;
-    border-radius: 100%;
-  }
-  /*-----------------------------
+#facts_sec {
+   margin: 100px 0;
+}
+
+.facts_items {
+   margin: 100px 0;
+   padding: 0 20px;
+}
+
+.facts_item {
+   border: 1px solid #FF900E;
+   border-radius: 8px;
+   padding: 20px 40px;
+   transition: all linear .3s;
+}
+
+.facts_item:hover {
+   color: #fff;
+   background-color: #FF900E;
+   border: 1px solid #FF900E;
+}
+
+.facts_item .sec_ttl {
+   margin-bottom: 10px;
+}
+
+.facts_item:hover .sec_ttl,
+.facts_item:hover .sec_text {
+   color: #fff;
+}
+
+.facts_item img {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 100%;
+}
+
+/*-----------------------------
  Our Sponspors section start
   ------------------------------*/
-  #Sponspors_sec{
-    margin: 100px 0;
-  }
-  .Sponspors_items{
-    margin: 100px 0 50px 0;
-  }
-  .Sponspors_items img{
-  filter: grayscale(100%); 
-  }
+#Sponspors_sec {
+   margin: 100px 0;
+}
+
+.Sponspors_items {
+   margin: 100px 0 50px 0;
+}
+
+.Sponspors_items img {
+   filter: grayscale(100%);
+}
+
 /* ----------------------------
     Qualified Engineers section
  -------------------------------*/
- #Engineers_sec{
-    margin: 100px 0 50px 0;
- }
- #Engineers_sec .row{
-    gap: 20px;
- }
- .staff{
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-    padding-bottom: 20px;
-    border-radius: 8px;
-    transition: all linear .3s;
-    margin-top: 50px;
- }
- .staff:hover{
-    background-color: #FF900E;
- }
- .staff:hover .sec_ttl,
- .staff:hover .sec_text{
-    color: #fff;
- }
- .staff .text{
-    margin-top: 20px;
-    
- }
- .staff img{
-    margin-bottom: 20px;
- }
- .staff .sec_ttl{
-    font-size: 25px;
-    font-weight: 600;
- }
- .staff img{
-    max-width: 100%;
- }
- /* ----------------------------
+#Engineers_sec {
+   margin: 100px 0 50px 0;
+}
+
+#Engineers_sec .row {
+   gap: 20px;
+}
+
+.staff {
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+   padding-bottom: 20px;
+   border-radius: 8px;
+   transition: all linear .3s;
+   margin-top: 50px;
+}
+
+.staff:hover {
+   background-color: #FF900E;
+}
+
+.staff:hover .sec_ttl,
+.staff:hover .sec_text {
+   color: #fff;
+}
+
+.staff .text {
+   margin-top: 20px;
+
+}
+
+.staff img {
+   margin-bottom: 20px;
+}
+
+.staff .sec_ttl {
+   font-size: 25px;
+   font-weight: 600;
+}
+
+.staff img {
+   max-width: 100%;
+}
+
+/* ----------------------------
     main section end
  -------------------------------*/
-   /*-----------------------------
+/*-----------------------------
  footer section start
   ------------------------------*/
-  footer{
-    padding: 40px 0;
-    background: rgba(255, 144, 14, 0.10);
-  }
-  footer .sec_text{
-    font-size: 20px;
-    margin-bottom: 0;
-  }
+footer {
+   padding: 40px 0;
+   background: rgba(255, 144, 14, 0.10);
+}
+
+footer .sec_text {
+   font-size: 20px;
+   margin-bottom: 0;
+}
+
 /*-----------------------------
  footer section end
   ------------------------------*/
 /*-----------------------------
  responsive section start
   ------------------------------*/
-  /* Responsive for mobile device */
-  @media screen and (max-width:668px) {
-    /* common css start */
-    .container{
-        max-width:100%;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
-    .btn{
-        color:#424242;
-        padding: 10px 20px;
-        font-size: 13px;
-        font-weight: 600;
-    }
-    .row{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-        column-gap: 20px;
-        row-gap: 20px;
-        text-align: center;   
-    }
-     img{
-        max-width: 100%;
-        
-     }
-     .sec_ttl{
-        font-size: 20px;
-     }
-     .sec_text{
-        font-size: 10px;
-     }
-    /* common css start */
+/* Responsive for mobile device */
+@media screen and (max-width:668px) {
 
-     #banner {
-        padding: 20px 0;
-     }
-     #banner .sec_ttl{
-        font-size: 30px;
-        padding: 0  ;
-    }
-    #banner .sec_text{
-        padding: 0;
-    }
-     .our_features_img{
-        grid-template-columns: repeat(1, 1fr);
-     }
-     .our_features_img img{
-        width: 100%;
-     }
-     .Sponspors_items{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 30px 0 10px 0;
-        row-gap: 25px;
-     }
-     .your_features_img .btn{
-        bottom: 0px;
-        left: 0px;
-     }
-  }
-  /* Responsive for mobile device */
-  @media screen and (min-width:668.1px ) and (max-width:992px){
-    .container{
-        max-width:100%;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
-    img{
-        max-width: 100%;
-     }
-    .btn{
-        color:#424242;
-        padding: 13px 23px;
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .row{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-        column-gap: 20px;
-        row-gap: 20px;
-        text-align: center;   
-    }
-    #banner {
-        padding: 20px 0;
-     }
-     #banner .sec_ttl{
-        font-size: 40px;
-        padding: 0  ;
-    }
-    #banner .sec_text{
-        padding: 0;
-    }
-    .our_features_img, .Engineers_info, .facts_items{
-        grid-template-columns: repeat(2, 1fr); 
-     }
-     .Sponspors_items{
-        grid-template-columns: repeat(3, 1fr);
-        row-gap: 25px;
-     }
-  }
-  /*-----------------------------
+   /* common css start */
+   .container {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+   }
+
+   .btn {
+      color: #424242;
+      padding: 10px 20px;
+      font-size: 13px;
+      font-weight: 600;
+   }
+
+   .row {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
+      column-gap: 20px;
+      row-gap: 20px;
+      text-align: center;
+   }
+
+   img {
+      max-width: 100%;
+
+   }
+
+   .sec_ttl {
+      font-size: 20px;
+   }
+
+   .sec_text {
+      font-size: 10px;
+   }
+
+   /* common css start */
+
+   #banner {
+      padding: 20px 0;
+   }
+
+   #banner .sec_ttl {
+      font-size: 30px;
+      padding: 0;
+   }
+
+   #banner .sec_text {
+      padding: 0;
+   }
+
+   .our_features_img {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+   .our_features_img img {
+      width: 100%;
+   }
+
+   .Sponspors_items {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 30px 0 10px 0;
+      row-gap: 25px;
+   }
+
+   .your_features_img .btn {
+      bottom: 0px;
+      left: 0px;
+   }
+}
+
+/* Responsive for mobile device */
+@media screen and (min-width:668.1px) and (max-width:992px) {
+   .container {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+   }
+
+   img {
+      max-width: 100%;
+   }
+
+   .btn {
+      color: #424242;
+      padding: 13px 23px;
+      font-size: 16px;
+      font-weight: 600;
+   }
+
+   .row {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
+      column-gap: 20px;
+      row-gap: 20px;
+      text-align: center;
+   }
+
+   #banner {
+      padding: 20px 0;
+   }
+
+   #banner .sec_ttl {
+      font-size: 40px;
+      padding: 0;
+   }
+
+   #banner .sec_text {
+      padding: 0;
+   }
+
+   .our_features_img,
+   .Engineers_info,
+   .facts_items {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .Sponspors_items {
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 25px;
+   }
+}
+
+/*-----------------------------
  responsive section end
   ------------------------------*/
