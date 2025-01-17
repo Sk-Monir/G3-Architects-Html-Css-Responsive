@@ -243,15 +243,15 @@ header {
 /*-----------------------------
  Our Sponspors section start
   ------------------------------*/
-#Sponspors_sec {
+#Sponsors_sec {
    margin: 100px 0;
 }
 
-.Sponspors_items {
+.Sponsors_items {
    margin: 100px 0 50px 0;
 }
 
-.Sponspors_items img {
+.Sponsors_items img {
    filter: grayscale(100%);
 }
 
