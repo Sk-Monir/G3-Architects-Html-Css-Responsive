@@ -162,8 +162,18 @@ header {
    margin: 100px 0;
 }
 
+#your_features .your_features_text {
+   width: 45%;
+}
+
+#your_features .border_left {
+   border-left: 5px solid #FF900E;
+   padding-left: 20px;
+}
+
 #your_features .row {
    gap: 20px;
+   align-items: center;
 }
 
 .your_features_item {
@@ -180,6 +190,11 @@ header {
 
 .your_features_img {
    position: relative;
+   max-width: 50%;
+}
+
+.your_features_img img {
+   width: 100%;
 }
 
 .your_features_img .btn {
@@ -241,7 +256,7 @@ header {
 }
 
 /*-----------------------------
- Our Sponspors section start
+ Our Sponsors section start
   ------------------------------*/
 #Sponsors_sec {
    margin: 100px 0;
